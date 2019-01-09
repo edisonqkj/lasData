@@ -43,11 +43,6 @@ for bat in bats:
 			save_laz = strs[2]
 			url = strs[3]
 
-			# if url == 'http://na-c.entwine.io/nyc/ept-data/8-1-50-250.laz':
-			# 	ok = True
-			# if not ok:
-			# 	continue
-
 			t = str(datetime.datetime.now())
 			log = open(data_dir + 'log' + fname + '.txt','a')
 			log.write('Start: ' + t + '   ' + url)
